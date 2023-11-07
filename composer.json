@@ -1,0 +1,17 @@
+{
+    "name": "hanif/php-composer",
+    "description": "Learn PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hanif\\PhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hanif2023",
+            "email": "hanifabdillah150703@gmail.com"
+        }
+    ],
+    "require": {}
+}
