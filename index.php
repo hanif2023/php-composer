@@ -2,4 +2,8 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-echo "Hello World Composer" . PHP_EOL;
+use Hanif\Data\People;
+
+$people = new People("Hanif");
+
+echo $people->sayHello("Budi") . PHP_EOL;
